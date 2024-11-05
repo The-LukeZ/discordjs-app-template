@@ -32,7 +32,7 @@ The parameters don't have the usual `key=value` structure. They're also built li
 <details>
   <summary>Examples (Click to expand)</summary>
  
-### Examples
+#### Examples
 
 - Simple component: `help`
 - Sub component (e.g. for a specific help-page): `help/commands`
@@ -40,11 +40,11 @@ The parameters don't have the usual `key=value` structure. They're also built li
 - Everything: `foo/bar?fizz/buzz/123`
 </details>
 
-## The `run` property
+### The `run` property
 
 This should be an async function that takes one parameter as the Interaction.
 
-## Example
+### Example
 
 ```js
 default export {
