@@ -70,3 +70,6 @@ Basically, all `*.js` files inside are treated as command files. I usually prefe
 Events are dynamically loaded. In this example we have an `events` sub-folder in our `src` directory.
 
 Since events can have multiple listeners and sometimes one event file is a bit too complicated, we make another folder for every event there is inside the `events` folder, which houses files that `export default` a function that acts as the event listener.
+
+> [!IMPORTANT]
+> An overview of supported events can be found here: https://discord.js.org/docs/packages/discord.js/14.16.3/ClientEvents:Interface
