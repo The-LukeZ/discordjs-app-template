@@ -10,7 +10,8 @@ export default {
    */
   async run(ctx) {
     await ctx.deferReply({ ephemeral: true });
-    const { firstParam } = parseCustomId(ctx.customId);
+    const firstParam =
+      typeof parsedId === "string" ? parsedId : parsedId.firstParam; // That's just the TS compiler being dumb...
 
     const newNumber = parseInt(firstParam) + 1;
 

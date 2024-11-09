@@ -22,7 +22,7 @@ export default {
       fetchReply: true,
     });
 
-    const wsPing = client.ws.ping;
+    const wsPing = ctx.client.ws.ping;
     const guildPing = sent.createdTimestamp - ctx.createdTimestamp;
 
     await ctx.editReply({
