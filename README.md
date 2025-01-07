@@ -1,3 +1,8 @@
+> [!WARNING]
+> Outdated project!
+> If you want, you can continue to develop it, but I won't at the moment!
+
+
 # discord.js App Template
 
 A template for discord.js apps.
